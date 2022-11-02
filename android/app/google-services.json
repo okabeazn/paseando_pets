@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "587994931194",
+    "project_id": "paseando-pets-6c060",
+    "storage_bucket": "paseando-pets-6c060.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587994931194:android:02a720d7270864dc064e43",
+        "android_client_info": {
+          "package_name": "com.udea.paseando_pets"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "587994931194-b34j2h0qmaobsam6t4k27aodbv94bn8g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKFRmOmcSu8g2gpf0JAA80PLviL8S2NB4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "587994931194-b34j2h0qmaobsam6t4k27aodbv94bn8g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
