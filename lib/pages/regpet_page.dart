@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:paseando_pets/model/mascota_modelo.dart';
 import 'package:paseando_pets/pages/home_page.dart';
+import 'package:paseando_pets/pages/menu_page.dart';
 import 'package:paseando_pets/repository/mascota_repositorio.dart';
 import 'package:paseando_pets/repository/utilities.dart';
 
@@ -69,14 +70,14 @@ class _RegisterMascotaState extends State<RegisterMascota> {
             child: Center(
               child: Column(children: [
                 Container(
+                  padding:
+                      const EdgeInsets.symmetric(vertical: 20, horizontal: 20),
+                  margin: const EdgeInsets.all(20),
                   child: const Image(
                     image: AssetImage("assets/images/perro.png"),
                     width: 50,
                     height: 50,
                   ),
-                  padding:
-                      const EdgeInsets.symmetric(vertical: 20, horizontal: 20),
-                  margin: const EdgeInsets.all(20),
                 ),
                 TextFormField(
                   controller: nombre,
@@ -180,6 +181,7 @@ class _RegisterMascotaState extends State<RegisterMascota> {
           ),
         ),
       ),
+      bottomNavigationBar: const menuInferior(),
     );
   }
 }

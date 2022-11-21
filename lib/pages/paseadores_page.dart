@@ -165,6 +165,7 @@ class _PaseadoresPageState extends State<PaseadoresPage> {
           ),
         ],
       ),
+      bottomNavigationBar: const menuInferior(),
       // Center(
       //   child: Column(
       //     mainAxisAlignment: MainAxisAlignment.center,
